@@ -1,0 +1,5 @@
+Bill = float(input("Enter Bill: "))
+Percentage = float(input("Enter Tip Percentage - 10,12,15: "))
+People = float(input("Enter Number of People: "))
+a = Bill - (Bill * (Percentage / 100 ) * People)
+print("Each Person -",round(a,2))
