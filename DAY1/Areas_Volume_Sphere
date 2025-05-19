@@ -1,0 +1,5 @@
+#Areas of Closed 3d figures
+#Sphere
+radius = int(input("Enter radius of Sphere: "))
+print("t.s.a of Sphere is -", 4 * 3.14 * radius * radius)
+print("Volume is -", (4/3)*3.14 * radius *radius * radius)
