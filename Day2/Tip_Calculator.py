@@ -1,5 +1,0 @@
-Bill = float(input("What was the total bill? $"))
-Percentage = int(input("What percentage tip would you like to give? - 10 , 12 , 15"))
-People = int(input("How many people are there? - "))
-a = float(Bill - ((Bill * Percentage / 100) * People))
-print("Each Person should pay -", round(a,2))
