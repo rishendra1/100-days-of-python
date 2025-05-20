@@ -3,9 +3,9 @@ import random
 Where a - denotes the user's choice and b is the computer's choice'''
 a = int(input("What do you choose? 0 - Rock, 1 - Paper, 2 - Scissor"))
 b = random.randint(0,2)
-if b == 0: print("I chose Rock")
-if b == 1: print("I chose Paper")
-if b == 2: print("I chose Scissor")
+if b == 0: print("I choose Rock")
+if b == 1: print("I choose Paper")
+if b == 2: print("I choose Scissor")
 
 if a < 0 and a > 2:
     print("Invalid Choice")
