@@ -19,24 +19,24 @@
 9. "print(str_name.upper())" prints the string in Uppercase, where str_name is the name of the string
 10. "print(str_name.lower())" prints the string in Lowercase, where str_name is the name of the string
 11. Comparison Operators:
-    1. > - greater than
-    2. < - less than
-    3. <= - less than or equal to
-    4. >= - Greater than or equal to
-    5. == - Equal to
-    6. != - Not Equal to
+    1. ">" - greater than
+    2. "<" - less than
+    3. "<=" - less than or equal to
+    4. ">=" - Greater than or equal to
+    5. "==" - Equal to
+    6. "!=" - Not Equal to
 12. if <"this condition is true">:
          <"then execute this condition">
     else:
          <"then execute this condition">
 13. Arithmetic Operators:
-    1. + - Addition
-    2. - - Subtraction
-    3. * - Multiplication
-    4. / - Divison
-    5. % - Modulo
-    6. ** - Exponent
-    7. // - Integral division
+    1. '+' - Addition
+    2. '-' - Subtraction
+    3. '*' - Multiplication
+    4. '/' - Divison
+    5. '%' - Modulo
+    6. '**' - Exponent
+    7. '//' - Integral division
 14. Logical Operators:
     1. "and"
        1. True and True becomes - True
@@ -49,3 +49,18 @@
        3. False or True becomes - True
        4. False or False becomes - False
     3. "not" - operator
+15. " import random " makes use of random module in your code
+16. "random.randint(a , b)" returns a random number between a and b
+17. "import File_name" helps us to to import another python file into the existing python file
+18. "random.random()" helps us to return a random floating point number(0 to 1)
+19. "random.uniform(a,b)" returns a floating point number between a and b
+20. Lists are one of the data types in python used to store different items of any data type
+21. Lists are denoted as '[]'
+22. These are also accessed by using indexes
+23. "List_Name.append(Variable)" - adds a variable to the list
+24. "List_Name.extend([V1,V2,V3.......])" - adds a bunch of variables to the list
+25. "List_Name.insert(i , x)" inserts variable "x" in the 'i'th position
+26. "List_Name.remove(x)" removes the variable "x" if it is present in the List
+27. "List_Name.pop(i)" removes the variable whose index is "i"
+28. "random.choice(List_Name)" returns the random variable from the list
+29. 
