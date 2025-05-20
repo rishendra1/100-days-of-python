@@ -4,7 +4,24 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="27598671-d29c-452a-8b71-80022a340972" name="Changes" comment="" />
+    <list default="true" id="27598671-d29c-452a-8b71-80022a340972" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/DAY3/BMI_Calculator with Interpretations.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DAY3/Even_odd.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DAY3/Pizza_bill_Calculator.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DAY3/Treasure_Game.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DAY1/Area_Volume_of_Cylinder.py" beforeDir="false" afterPath="$PROJECT_DIR$/DAY1/Area_Volume_of_Cylinder.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DAY1/Areas_Volume_Sphere" beforeDir="false" afterPath="$PROJECT_DIR$/DAY1/Areas_Volume_Sphere" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DAY1/Areas_of_2d_figures.py" beforeDir="false" afterPath="$PROJECT_DIR$/DAY1/Areas_of_2d_figures.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DAY1/Band_Name_Generator.py" beforeDir="false" afterPath="$PROJECT_DIR$/DAY1/Band_Name_Generator.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DAY1/Greatest_of_three.py" beforeDir="false" afterPath="$PROJECT_DIR$/DAY3/Greatest_of_three.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DAY2/Tip_Calculator.py" beforeDir="false" afterPath="$PROJECT_DIR$/DAY2/Tip_Calculator.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -24,32 +41,43 @@
   &quot;associatedIndex&quot;: 8
 }</component>
   <component name="ProjectId" id="2xIf3tX8mlUpgqPJwR8NzcHK0DR" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;Python.Band_Generator.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Band_Name_Generator.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Tip_Calculator.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Type.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/rishe/Desktop/100-days-of-python/Day1&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "Python.BMI_Calculator with Interpretations.executor": "Run",
+    "Python.Band_Generator.executor": "Run",
+    "Python.Band_Name_Generator.executor": "Run",
+    "Python.Even_odd.executor": "Run",
+    "Python.Greatest_of_three.executor": "Run",
+    "Python.Pizza_bill_Calculator.executor": "Run",
+    "Python.Tip_Calculator.executor": "Run",
+    "Python.Treasure_Game.executor": "Run",
+    "Python.Type.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "C:/Users/rishe/Desktop/100-days-of-python/Day1",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\rishe\Desktop\100-days-of-python\Day1" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\rishe\Desktop\100-days-of-python\DAY3" />
     </key>
   </component>
   <component name="SharedIndexes">
@@ -69,16 +97,34 @@
       <updated>1747630313106</updated>
       <workItem from="1747630314406" duration="958000" />
       <workItem from="1747654856681" duration="3837000" />
+      <workItem from="1747658841340" duration="324000" />
+      <workItem from="1747712696379" duration="3547000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/DAY3/Greatest_of_three.py</url>
+          <line>6</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/100_days_of_python$Band_Name_Generator.coverage" NAME="Band_Name_Generator Coverage Results" MODIFIED="1747656490793" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Day1" />
+    <SUITE FILE_PATH="coverage/100_days_of_python$Band_Name_Generator.coverage" NAME="Band_Name_Generator Coverage Results" MODIFIED="1747659078186" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DAY1" />
+    <SUITE FILE_PATH="coverage/100_days_of_python$Greatest_of_three.coverage" NAME="Greatest_of_three Coverage Results" MODIFIED="1747658992681" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DAY1" />
+    <SUITE FILE_PATH="coverage/100_days_of_python$BMI_Calculator_with_Interpretations.coverage" NAME="BMI_Calculator with Interpretations Coverage Results" MODIFIED="1747713356525" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DAY3" />
     <SUITE FILE_PATH="coverage/100_days_of_python$Type.coverage" NAME="Type Coverage Results" MODIFIED="1747656117025" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Day1" />
     <SUITE FILE_PATH="coverage/100_days_of_python$Tip_Calculator.coverage" NAME="Tip_Calculator Coverage Results" MODIFIED="1747658734022" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DAY2" />
+    <SUITE FILE_PATH="coverage/100_days_of_python$Treasure_Game.coverage" NAME="Treasure_Game Coverage Results" MODIFIED="1747715482392" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DAY3" />
     <SUITE FILE_PATH="coverage/100_days_of_python$Band_Generator.coverage" NAME="Band_Generator Coverage Results" MODIFIED="1747631093138" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Day1" />
+    <SUITE FILE_PATH="coverage/100_days_of_python$Even_odd.coverage" NAME="Even_odd Coverage Results" MODIFIED="1747712854032" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DAY3" />
+    <SUITE FILE_PATH="coverage/100_days_of_python$Pizza_bill_Calculator.coverage" NAME="Pizza_bill_Calculator Coverage Results" MODIFIED="1747714146250" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DAY3" />
   </component>
 </project>
