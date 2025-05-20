@@ -37,4 +37,15 @@
     5. % - Modulo
     6. ** - Exponent
     7. // - Integral division
-14.         
+14. Logical Operators:
+    1. "and"
+       1. True and True becomes - True
+       2. True and False becomes - False
+       3. False and True becomes - False
+       4. False and False becomes - True
+    2. "or"
+       1. True or True becomes - True
+       2. True or False becomes - True
+       3. False or True becomes - True
+       4. False or False becomes - False
+    3. "not" - operator
