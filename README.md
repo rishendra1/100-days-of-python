@@ -63,4 +63,7 @@
 26. "List_Name.remove(x)" removes the variable "x" if it is present in the List
 27. "List_Name.pop(i)" removes the variable whose index is "i"
 28. "random.choice(List_Name)" returns the random variable from the list
-29. 
+29. Loops allow us to tell the computer to repeat actions without having to write the code.
+30. "for i in range(a , b , n) " means "i" starts from and increments by "n" till "b"
+31. If "My_List" is of list data type and if you want to convert into array then do, "ARRAY = "".join(My_List)
+32. 
