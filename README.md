@@ -67,3 +67,8 @@
 30. "for i in range(a , b , n) " means "i" starts from and increments by "n" till "b"
 31. If "My_List" is of list data type and if you want to convert into array then do, "ARRAY = "".join(My_List)
 32. Function in its simplest form is just a wrapper name for a block of code
+33. While syntax:
+    while <condition_is_true>:
+          #Do something repeatedly
+34.     
+    
