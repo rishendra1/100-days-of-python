@@ -5,9 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="27598671-d29c-452a-8b71-80022a340972" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/DAY5/Highest score.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DAY5/Loops_Application.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DAY5/Password_Generator.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DAY6/Fibonacci_Series.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DAY6/Palindrome_Function.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DAY6/Prime_function.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
@@ -23,9 +23,11 @@
       <change beforePath="$PROJECT_DIR$/DAY3/Greatest_of_three.py" beforeDir="false" afterPath="$PROJECT_DIR$/DAY3/Greatest_of_three.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/DAY3/Pizza_bill_Calculator.py" beforeDir="false" afterPath="$PROJECT_DIR$/DAY3/Pizza_bill_Calculator.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/DAY3/Treasure_Game.py" beforeDir="false" afterPath="$PROJECT_DIR$/DAY3/Treasure_Game.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DAY3~e988c23d3298088ca8a87c8546b1fe837ad88d9f" beforeDir="false" afterPath="$PROJECT_DIR$/DAY3~e988c23d3298088ca8a87c8546b1fe837ad88d9f" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/DAY4/Rock_Paper_Scissor_Game.py" beforeDir="false" afterPath="$PROJECT_DIR$/DAY4/Rock_Paper_Scissor_Game.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DAY4~1e2eafbf5dfe7b6ff8e4d3c2792a895682060835" beforeDir="false" afterPath="$PROJECT_DIR$/DAY4~1e2eafbf5dfe7b6ff8e4d3c2792a895682060835" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DAY5/Highest score.py" beforeDir="false" afterPath="$PROJECT_DIR$/DAY5/Highest score.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DAY5/Loops_Application.py" beforeDir="false" afterPath="$PROJECT_DIR$/DAY5/Loops_Application.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DAY5/Password_Generator.py" beforeDir="false" afterPath="$PROJECT_DIR$/DAY5/Password_Generator.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DAY5~3b673b9a9cebf9d4a06d7c47ff450b0aaad3cc90" beforeDir="false" afterPath="$PROJECT_DIR$/DAY5~3b673b9a9cebf9d4a06d7c47ff450b0aaad3cc90" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -36,6 +38,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Jupyter Notebook" />
         <option value="Python Script" />
       </list>
     </option>
@@ -61,12 +64,15 @@
     "Python.Band_Generator.executor": "Run",
     "Python.Band_Name_Generator.executor": "Run",
     "Python.Even_odd.executor": "Run",
+    "Python.Fibonacci_Series.executor": "Run",
     "Python.Greatest_of_three.executor": "Run",
     "Python.Highest score.executor": "Run",
     "Python.Lists.executor": "Run",
     "Python.Loops_Application.executor": "Run",
+    "Python.Palindrome_Function.executor": "Run",
     "Python.Password_Generator.executor": "Run",
     "Python.Pizza_bill_Calculator.executor": "Run",
+    "Python.Prime_function.executor": "Run",
     "Python.Rock_Paper_Scissor_Game.executor": "Run",
     "Python.Tip_Calculator.executor": "Run",
     "Python.Treasure_Game.executor": "Run",
@@ -111,7 +117,8 @@
       <workItem from="1747654856681" duration="3837000" />
       <workItem from="1747658841340" duration="324000" />
       <workItem from="1747712696379" duration="4155000" />
-      <workItem from="1747739645383" duration="7235000" />
+      <workItem from="1747739645383" duration="7687000" />
+      <workItem from="1747749849944" duration="2802000" />
     </task>
     <servers />
   </component>
@@ -131,14 +138,17 @@
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/100_days_of_python$Rock_Paper_Scissor_Game.coverage" NAME="Rock_Paper_Scissor_Game Coverage Results" MODIFIED="1747743592500" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DAY4" />
-    <SUITE FILE_PATH="coverage/100_days_of_python$Greatest_of_three.coverage" NAME="Greatest_of_three Coverage Results" MODIFIED="1747658992681" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DAY1" />
     <SUITE FILE_PATH="coverage/100_days_of_python$random_module.coverage" NAME="random_module Coverage Results" MODIFIED="1747742193482" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DAY4" />
+    <SUITE FILE_PATH="coverage/100_days_of_python$Greatest_of_three.coverage" NAME="Greatest_of_three Coverage Results" MODIFIED="1747658992681" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DAY1" />
     <SUITE FILE_PATH="coverage/100_days_of_python$Tip_Calculator.coverage" NAME="Tip_Calculator Coverage Results" MODIFIED="1747658734022" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DAY2" />
     <SUITE FILE_PATH="coverage/100_days_of_python$Band_Generator.coverage" NAME="Band_Generator Coverage Results" MODIFIED="1747631093138" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Day1" />
     <SUITE FILE_PATH="coverage/100_days_of_python$Even_odd.coverage" NAME="Even_odd Coverage Results" MODIFIED="1747712854032" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DAY3" />
     <SUITE FILE_PATH="coverage/100_days_of_python$Lists.coverage" NAME="Lists Coverage Results" MODIFIED="1747741969636" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DAY4" />
-    <SUITE FILE_PATH="coverage/100_days_of_python$Password_Generator.coverage" NAME="Password_Generator Coverage Results" MODIFIED="1747747339797" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DAY5" />
+    <SUITE FILE_PATH="coverage/100_days_of_python$Fibonacci_Series.coverage" NAME="Fibonacci_Series Coverage Results" MODIFIED="1747800579049" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DAY6" />
+    <SUITE FILE_PATH="coverage/100_days_of_python$Password_Generator.coverage" NAME="Password_Generator Coverage Results" MODIFIED="1747747465148" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DAY5" />
     <SUITE FILE_PATH="coverage/100_days_of_python$Pizza_bill_Calculator.coverage" NAME="Pizza_bill_Calculator Coverage Results" MODIFIED="1747714146250" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DAY3" />
+    <SUITE FILE_PATH="coverage/100_days_of_python$Prime_function.coverage" NAME="Prime_function Coverage Results" MODIFIED="1747798892880" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DAY6" />
+    <SUITE FILE_PATH="coverage/100_days_of_python$Palindrome_Function.coverage" NAME="Palindrome_Function Coverage Results" MODIFIED="1747798632145" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DAY6" />
     <SUITE FILE_PATH="coverage/100_days_of_python$Band_Name_Generator.coverage" NAME="Band_Name_Generator Coverage Results" MODIFIED="1747659078186" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DAY1" />
     <SUITE FILE_PATH="coverage/100_days_of_python$Highest_score.coverage" NAME="Highest score Coverage Results" MODIFIED="1747745125150" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DAY5" />
     <SUITE FILE_PATH="coverage/100_days_of_python$BMI_Calculator_with_Interpretations.coverage" NAME="BMI_Calculator with Interpretations Coverage Results" MODIFIED="1747713356525" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DAY3" />
