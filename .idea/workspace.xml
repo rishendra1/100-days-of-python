@@ -5,9 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="27598671-d29c-452a-8b71-80022a340972" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/DAY6/Fibonacci_Series.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DAY6/Palindrome_Function.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DAY6/Prime_function.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DAY7/Hangman_game.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
@@ -27,7 +25,10 @@
       <change beforePath="$PROJECT_DIR$/DAY5/Highest score.py" beforeDir="false" afterPath="$PROJECT_DIR$/DAY5/Highest score.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/DAY5/Loops_Application.py" beforeDir="false" afterPath="$PROJECT_DIR$/DAY5/Loops_Application.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/DAY5/Password_Generator.py" beforeDir="false" afterPath="$PROJECT_DIR$/DAY5/Password_Generator.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DAY5~3b673b9a9cebf9d4a06d7c47ff450b0aaad3cc90" beforeDir="false" afterPath="$PROJECT_DIR$/DAY5~3b673b9a9cebf9d4a06d7c47ff450b0aaad3cc90" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DAY6/Fibonacci_Series.py" beforeDir="false" afterPath="$PROJECT_DIR$/DAY6/Fibonacci_Series.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DAY6/Palindrome_Function.py" beforeDir="false" afterPath="$PROJECT_DIR$/DAY6/Palindrome_Function.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DAY6/Prime_function.py" beforeDir="false" afterPath="$PROJECT_DIR$/DAY6/Prime_function.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DAY6~3ad8ff256376753314b427034f4e9fc140102c14" beforeDir="false" afterPath="$PROJECT_DIR$/DAY6~3ad8ff256376753314b427034f4e9fc140102c14" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -66,6 +67,7 @@
     "Python.Even_odd.executor": "Run",
     "Python.Fibonacci_Series.executor": "Run",
     "Python.Greatest_of_three.executor": "Run",
+    "Python.Hangman_game.executor": "Run",
     "Python.Highest score.executor": "Run",
     "Python.Lists.executor": "Run",
     "Python.Loops_Application.executor": "Run",
@@ -118,7 +120,7 @@
       <workItem from="1747658841340" duration="324000" />
       <workItem from="1747712696379" duration="4155000" />
       <workItem from="1747739645383" duration="7687000" />
-      <workItem from="1747749849944" duration="2802000" />
+      <workItem from="1747749849944" duration="6325000" />
     </task>
     <servers />
   </component>
@@ -154,6 +156,7 @@
     <SUITE FILE_PATH="coverage/100_days_of_python$BMI_Calculator_with_Interpretations.coverage" NAME="BMI_Calculator with Interpretations Coverage Results" MODIFIED="1747713356525" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DAY3" />
     <SUITE FILE_PATH="coverage/100_days_of_python$Type.coverage" NAME="Type Coverage Results" MODIFIED="1747656117025" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Day1" />
     <SUITE FILE_PATH="coverage/100_days_of_python$Treasure_Game.coverage" NAME="Treasure_Game Coverage Results" MODIFIED="1747740284557" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DAY3" />
+    <SUITE FILE_PATH="coverage/100_days_of_python$Hangman_game.coverage" NAME="Hangman_game Coverage Results" MODIFIED="1747882646463" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DAY7" />
     <SUITE FILE_PATH="coverage/100_days_of_python$Loops_Application.coverage" NAME="Loops_Application Coverage Results" MODIFIED="1747745888660" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DAY5" />
   </component>
 </project>
