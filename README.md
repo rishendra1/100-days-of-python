@@ -70,5 +70,11 @@
 33. While syntax:
     while <condition_is_true>:
           #Do something repeatedly
-34.     
+34. Dictionary = {key : value}
+35. "max(Dictionary_Name.values())" denotes the maximum value in dictionary
+36. In dictionary we can modify the existing items into new items
+37. We can use docstrings to write multiline comments that describe our code
+38. Example --> ''' My name is Rishendra
+                    I am studying B.Tech'''
+39.       
     
