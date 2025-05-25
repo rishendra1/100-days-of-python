@@ -76,5 +76,15 @@
 37. We can use docstrings to write multiline comments that describe our code
 38. Example --> ''' My name is Rishendra
                     I am studying B.Tech'''
-39.       
+39. To debug a code,
+    1. To describe a problem
+    2. Reproduce the bug - some bugs are sneaky, they only occur at one condition
+    3. Play computer and evaluate each line
+    4. Fix the errors
+    5. Squash the bug with print statement - It can helps us expose the hidden values while your code is running
+    6. Using a debugger
+    7. Take a break and think
+    8. Ask a friend
+40. In Python, ValueError is an exception raised when a function receives an argument of the correct data type but an inappropriate value.(Invalid data type)
+41. 
     
