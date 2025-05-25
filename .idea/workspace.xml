@@ -5,9 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="27598671-d29c-452a-8b71-80022a340972" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/DAY13/Debug_FizzBuzz_Game.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DAY13/Debug_odd_even_code.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DAY13/Debugging_Leap_Year_code.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DAY14/Higher_Lower_Game.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DAY14/conformation.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
@@ -20,8 +19,11 @@
       <change beforePath="$PROJECT_DIR$/DAY10/Calculator.py" beforeDir="false" afterPath="$PROJECT_DIR$/DAY10/Calculator.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/DAY10/Leap_Year.py" beforeDir="false" afterPath="$PROJECT_DIR$/DAY10/Leap_Year.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/DAY11/Black_Jack.py" beforeDir="false" afterPath="$PROJECT_DIR$/DAY11/Black_Jack.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DAY11~b9c9e1bffcbaf596c66afcfe3eea46728f3b33d4" beforeDir="false" afterPath="$PROJECT_DIR$/DAY11~b9c9e1bffcbaf596c66afcfe3eea46728f3b33d4" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/DAY12/Guess the number.py" beforeDir="false" afterPath="$PROJECT_DIR$/DAY12/Guess the number.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DAY13/Debug_FizzBuzz_Game.py" beforeDir="false" afterPath="$PROJECT_DIR$/DAY13/Debug_FizzBuzz_Game.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DAY13/Debug_odd_even_code.py" beforeDir="false" afterPath="$PROJECT_DIR$/DAY13/Debug_odd_even_code.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DAY13/Debugging_Leap_Year_code.py" beforeDir="false" afterPath="$PROJECT_DIR$/DAY13/Debugging_Leap_Year_code.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DAY13~87b2e03256b68f3ee3aa310dda6e8c08adacfe80" beforeDir="false" afterPath="$PROJECT_DIR$/DAY13~87b2e03256b68f3ee3aa310dda6e8c08adacfe80" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/DAY2/Tip_Calculator.py" beforeDir="false" afterPath="$PROJECT_DIR$/DAY2/Tip_Calculator.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/DAY3/BMI_Calculator with Interpretations.py" beforeDir="false" afterPath="$PROJECT_DIR$/DAY3/BMI_Calculator with Interpretations.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/DAY3/Even_odd.py" beforeDir="false" afterPath="$PROJECT_DIR$/DAY3/Even_odd.py" afterDir="false" />
@@ -89,6 +91,7 @@
     "Python.Greatest_of_three.executor": "Run",
     "Python.Guess the number.executor": "Run",
     "Python.Hangman_game.executor": "Run",
+    "Python.Higher_Lower_Game.executor": "Run",
     "Python.Highest score.executor": "Run",
     "Python.Leap_Year.executor": "Run",
     "Python.Lists.executor": "Run",
@@ -103,6 +106,7 @@
     "Python.Tip_Calculator.executor": "Run",
     "Python.Treasure_Game.executor": "Run",
     "Python.Type.executor": "Run",
+    "Python.conformation.executor": "Run",
     "Python.eee.executor": "Run",
     "Python.random_module.executor": "Run",
     "Python.string.executor": "Run",
@@ -151,7 +155,7 @@
       <workItem from="1747964512321" duration="5421000" />
       <workItem from="1748079888791" duration="4154000" />
       <workItem from="1748085938007" duration="3017000" />
-      <workItem from="1748142517786" duration="676000" />
+      <workItem from="1748142517786" duration="2941000" />
     </task>
     <servers />
   </component>
@@ -193,14 +197,16 @@
     <SUITE FILE_PATH="coverage/100_days_of_python$Debugging_Leap_Year_code.coverage" NAME="Debugging_Leap_Year_code Coverage Results" MODIFIED="1748142941022" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DAY13" />
     <SUITE FILE_PATH="coverage/100_days_of_python$string.coverage" NAME="string Coverage Results" MODIFIED="1747901952374" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DAY8" />
     <SUITE FILE_PATH="coverage/100_days_of_python$Encode_Decode.coverage" NAME="Encode_Decode Coverage Results" MODIFIED="1747902734629" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DAY8" />
-    <SUITE FILE_PATH="coverage/100_days_of_python$Debug_FizzBuzz_Game.coverage" NAME="Debug_FizzBuzz_Game Coverage Results" MODIFIED="1748143193700" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DAY13" />
+    <SUITE FILE_PATH="coverage/100_days_of_python$Debug_FizzBuzz_Game.coverage" NAME="Debug_FizzBuzz_Game Coverage Results" MODIFIED="1748143303839" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DAY13" />
     <SUITE FILE_PATH="coverage/100_days_of_python$Secret_Auction.coverage" NAME="Secret_Auction Coverage Results" MODIFIED="1747968378517" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DAY9" />
+    <SUITE FILE_PATH="coverage/100_days_of_python$Higher_Lower_Game.coverage" NAME="Higher_Lower_Game Coverage Results" MODIFIED="1748145463398" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DAY14" />
     <SUITE FILE_PATH="coverage/100_days_of_python$Calculator.coverage" NAME="Calculator Coverage Results" MODIFIED="1747969700894" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DAY10" />
     <SUITE FILE_PATH="coverage/100_days_of_python$Even_odd.coverage" NAME="Even_odd Coverage Results" MODIFIED="1747712854032" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DAY3" />
     <SUITE FILE_PATH="coverage/100_days_of_python$Lists.coverage" NAME="Lists Coverage Results" MODIFIED="1747741969636" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DAY4" />
     <SUITE FILE_PATH="coverage/100_days_of_python$Fibonacci_Series.coverage" NAME="Fibonacci_Series Coverage Results" MODIFIED="1747800579049" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DAY6" />
     <SUITE FILE_PATH="coverage/100_days_of_python$Love_Calculator.coverage" NAME="Love_Calculator Coverage Results" MODIFIED="1747902011770" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DAY8" />
     <SUITE FILE_PATH="coverage/100_days_of_python$Pizza_bill_Calculator.coverage" NAME="Pizza_bill_Calculator Coverage Results" MODIFIED="1747714146250" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DAY3" />
+    <SUITE FILE_PATH="coverage/100_days_of_python$conformation.coverage" NAME="conformation Coverage Results" MODIFIED="1748144707352" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DAY14" />
     <SUITE FILE_PATH="coverage/100_days_of_python$Band_Name_Generator.coverage" NAME="Band_Name_Generator Coverage Results" MODIFIED="1747659078186" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DAY1" />
     <SUITE FILE_PATH="coverage/100_days_of_python$Highest_score.coverage" NAME="Highest score Coverage Results" MODIFIED="1747745125150" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DAY5" />
     <SUITE FILE_PATH="coverage/100_days_of_python$Guess_the_number.coverage" NAME="Guess the number Coverage Results" MODIFIED="1748086809116" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DAY12" />
