@@ -86,5 +86,5 @@
     7. Take a break and think
     8. Ask a friend
 40. In Python, ValueError is an exception raised when a function receives an argument of the correct data type but an inappropriate value.(Invalid data type)
-41. 
+41. a , b = random.sample(list, 2) - gives 2 different choices
     
