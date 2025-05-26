@@ -1,5 +1,5 @@
 # 100-days-of-python
-"My 100-day journey of learning Python, building projects, and solving problems.”
+# "My 100-day journey of learning Python, building projects, and solving problems.”
 1. Python is a high level language
 2. Python consists of many built-in functions
 3. round(Number , number_of_decimal_digits) helps in rounding of digit in given no. of decimal places
@@ -86,5 +86,19 @@
     7. Take a break and think
     8. Ask a friend
 40. In Python, ValueError is an exception raised when a function receives an argument of the correct data type but an inappropriate value.(Invalid data type)
-41. 
-    
+41. a , b = random.sample(list, 2) - gives 2 different choices
+42. OOP - Object Oreinted Programming
+43. To map with the real world scenarios, we started using objects in the code, this is called as Object Oriented Programming
+44. These are procedural and functional
+45. "class" is a blueprint for creating objects
+46. All classes have a function called __init__(), which is always executed when class is initialized
+47. For example:
+    #creating class
+    class Student:
+        def __init__(self,fullname):
+            self.name = fullname
+    #self is a reference to the current instance of the class and it helps to access the variables to the class, that belongs to the class
+    #creating object
+    s1 = student("Karan")
+    print(s1.name)
+48.     
