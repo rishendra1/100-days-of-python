@@ -1,0 +1,16 @@
+from turtle import Turtle, Screen
+
+timmy = Turtle()
+timmy.pensize(5)
+screen = Screen()
+screen.bgcolor("black")
+timmy.color("red")
+timmy.forward(200)
+timmy.left(90)
+timmy.forward(200)
+timmy.left(90)
+timmy.forward(200)
+timmy.left(90)
+timmy.forward(200)
+timmy.left(90)
+screen.exitonclick()
