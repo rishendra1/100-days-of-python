@@ -101,4 +101,18 @@
     #creating object
     s1 = student("Karan")
     print(s1.name)
-48.     
+48. "from turtle import Turtle, Screen" imports the turtle library    
+49. Turtle_name.shape("turtle") - prints the shape of turtle
+50. Turtle_name.color("Color_name") - adds the colour to the shape
+51. screen_name.bgcolor("Color_name") - adds assigned color to the background
+52. screen_name.exitonclick() - "Output exits when we click on the output
+53. turtle_name.forward(number) - moves by the number of places
+54. ".left(angle)" - changes the position to he angle
+55. ".pensize(number)" - used to have a particular size
+56. "penup()" - we stop to draw the line
+57. "pendown()" - to draw the line
+58. "setheading()" is a function used in turtle graphics to set the orientation, or direction, the turtle is facing.
+59. Python Tuples - (v1,v1,v3.......) - where v1,v2,v3 are some values
+60. In tuples, we can't change the existing values
+61. "colormode(value)" - turtle colormode to allow RGB values from 0 - value
+62. "hideturtle()" hides the arrow pointer
