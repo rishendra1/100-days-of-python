@@ -30,4 +30,4 @@ screen.onkey(move_left, "a")
 screen.onkey(move_right, "d")
 screen.onkey(clear_all, "c")
 screen.exitonclick()
-screen.mainloop()  # Keeps the window open
+screen.mainloop()
