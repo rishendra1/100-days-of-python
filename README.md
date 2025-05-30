@@ -127,4 +127,6 @@
     2. Multi-level: A class is derived from a class which is also derived from another class.
     3. Multiple: A child class inherits from more than one parent class.
 70. super() method is used to access the methods of parent class
-71. 
+71. Syntax: super.function_name() " is used to declare the function that is present in parent class
+72. "class method" is bound to the class and receives class as first argument
+74. 
