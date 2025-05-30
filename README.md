@@ -116,3 +116,17 @@
 60. In tuples, we can't change the existing values
 61. "colormode(value)" - turtle colormode to allow RGB values from 0 - value
 62. "hideturtle()" hides the arrow pointer
+63. Methods are the functions that belongs to the objects
+64. Staric methods are the functions that don't use the self parameter
+65. Abstraction: Hiding the implementation details of the class , showing the essential features to the user
+66. Encapsulation: Wrapping of data and functions into a single unit
+67. Private attributes and methods are meant to be used within the class and are not accessible outside the class
+68. Inheritance: When one class derives the properties of the another class
+69. Inheritance are of 3 types:
+    1. Single : A child class inherits from only one parent class.
+    2. Multi-level: A class is derived from a class which is also derived from another class.
+    3. Multiple: A child class inherits from more than one parent class.
+70. super() method is used to access the methods of parent class
+71. Syntax: super.function_name() " is used to declare the function that is present in parent class
+72. "class method" is bound to the class and receives class as first argument
+74. 
