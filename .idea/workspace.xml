@@ -90,6 +90,10 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$USER_HOME$/AppData/Local/Temp/268843e0-5164-4b4b-bb49-8e2edb62d739_Solution-NATO-alphabet-end.zip.739/Solution+-+NATO-alphabet-end/main.py" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$USER_HOME$/AppData/Local/Temp/d9597f58-a0dc-4b9c-951e-09ab59cbd543_Solution-NATO-alphabet-end.zip.543/Solution+-+NATO-alphabet-end/main.py" root0="FORCE_HIGHLIGHTING" />
+  </component>
   <component name="ProblemsViewState">
     <option name="selectedTabId" value="CurrentFile" />
   </component>
@@ -104,89 +108,91 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;Python.Admission_count.executor&quot;: &quot;Run&quot;,
-    &quot;Python.BMI_Calculator with Interpretations.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Balckjack.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Band_Generator.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Band_Name_Generator.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Bank_Account.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Black_Jack.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Book_name_and_author.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Calculator.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Celsius_to_Farheinheit.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Coffee_Machine.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Debug_FizzBuzz_Game.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Debug_odd_even_code.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Debugging_Leap_Year_code.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Employee_increment.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Encode_Decode.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Etch_A_Sketch.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Even_odd.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Fibonacci_Series.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Grade_Calculator.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Grade_Calculator_of_Subject.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Greatest_of_three.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Guess the number.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Guessing_states.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Hangman_game.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Higher_Lower_Game.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Higher_order_functions_calculator.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Highest score.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Hirst_painting.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Install.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Leap_Year.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Lists.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Loops_Application.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Love_Calculator.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Multi_Level.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Multiple_Inheritance.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Palindrome_Function.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Password_Generator.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Pizza_bill_Calculator.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Prime_function.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Project.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Quiz.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Random_walk.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Rock_Paper_Scissor_Game.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Secret_Auction.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Snake_game_using_turtle.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Spirograph_using_circle.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Tip_Calculator.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Treasure_Game.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Turtle.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Turtle_Challenge_1.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Turtle_challenge_2.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Turtle_challenge_3.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Turtle_introduction.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Turtle_race.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Type.executor&quot;: &quot;Run&quot;,
-    &quot;Python.conformation.executor&quot;: &quot;Run&quot;,
-    &quot;Python.eee.executor&quot;: &quot;Run&quot;,
-    &quot;Python.main.executor&quot;: &quot;Run&quot;,
-    &quot;Python.new.executor&quot;: &quot;Run&quot;,
-    &quot;Python.random_module.executor&quot;: &quot;Run&quot;,
-    &quot;Python.snake.executor&quot;: &quot;Run&quot;,
-    &quot;Python.spirograph.executor&quot;: &quot;Run&quot;,
-    &quot;Python.string.executor&quot;: &quot;Run&quot;,
-    &quot;Python.super()method.executor&quot;: &quot;Run&quot;,
-    &quot;Python.test.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/rishe/Desktop/100-days-of-python/Day1&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.keymap&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "Python.Admission_count.executor": "Run",
+    "Python.BMI_Calculator with Interpretations.executor": "Run",
+    "Python.Balckjack.executor": "Run",
+    "Python.Band_Generator.executor": "Run",
+    "Python.Band_Name_Generator.executor": "Run",
+    "Python.Bank_Account.executor": "Run",
+    "Python.Black_Jack.executor": "Run",
+    "Python.Book_name_and_author.executor": "Run",
+    "Python.Calculator.executor": "Run",
+    "Python.Celsius_to_Farheinheit.executor": "Run",
+    "Python.Coding_exercise_2.executor": "Run",
+    "Python.Coffee_Machine.executor": "Run",
+    "Python.Debug_FizzBuzz_Game.executor": "Run",
+    "Python.Debug_odd_even_code.executor": "Run",
+    "Python.Debugging_Leap_Year_code.executor": "Run",
+    "Python.Employee_increment.executor": "Run",
+    "Python.Encode_Decode.executor": "Run",
+    "Python.Etch_A_Sketch.executor": "Run",
+    "Python.Even_odd.executor": "Run",
+    "Python.Fibonacci_Series.executor": "Run",
+    "Python.Grade_Calculator.executor": "Run",
+    "Python.Grade_Calculator_of_Subject.executor": "Run",
+    "Python.Greatest_of_three.executor": "Run",
+    "Python.Guess the number.executor": "Run",
+    "Python.Guessing_states.executor": "Run",
+    "Python.Hangman_game.executor": "Run",
+    "Python.Higher_Lower_Game.executor": "Run",
+    "Python.Higher_order_functions_calculator.executor": "Run",
+    "Python.Highest score.executor": "Run",
+    "Python.Hirst_painting.executor": "Run",
+    "Python.Install.executor": "Run",
+    "Python.Leap_Year.executor": "Run",
+    "Python.Lists.executor": "Run",
+    "Python.Loops_Application.executor": "Run",
+    "Python.Love_Calculator.executor": "Run",
+    "Python.Main.executor": "Run",
+    "Python.Multi_Level.executor": "Run",
+    "Python.Multiple_Inheritance.executor": "Run",
+    "Python.NATO.executor": "Run",
+    "Python.Palindrome_Function.executor": "Run",
+    "Python.Password_Generator.executor": "Run",
+    "Python.Pizza_bill_Calculator.executor": "Run",
+    "Python.Prime_function.executor": "Run",
+    "Python.Project.executor": "Run",
+    "Python.Quiz.executor": "Run",
+    "Python.Random_walk.executor": "Run",
+    "Python.Rock_Paper_Scissor_Game.executor": "Run",
+    "Python.Secret_Auction.executor": "Run",
+    "Python.Snake_game_using_turtle.executor": "Run",
+    "Python.Spirograph_using_circle.executor": "Run",
+    "Python.Tip_Calculator.executor": "Run",
+    "Python.Treasure_Game.executor": "Run",
+    "Python.Turtle.executor": "Run",
+    "Python.Turtle_Challenge_1.executor": "Run",
+    "Python.Turtle_challenge_2.executor": "Run",
+    "Python.Turtle_challenge_3.executor": "Run",
+    "Python.Turtle_introduction.executor": "Run",
+    "Python.Turtle_race.executor": "Run",
+    "Python.Type.executor": "Run",
+    "Python.conformation.executor": "Run",
+    "Python.eee.executor": "Run",
+    "Python.main.executor": "Run",
+    "Python.new.executor": "Run",
+    "Python.random_module.executor": "Run",
+    "Python.snake.executor": "Run",
+    "Python.spirograph.executor": "Run",
+    "Python.string.executor": "Run",
+    "Python.super()method.executor": "Run",
+    "Python.test.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "Merging main",
+    "last_opened_file_path": "C:/Users/rishe/Desktop/100-days-of-python/Day1",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.keymap",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\rishe\Desktop\100-days-of-python\Day1" />
@@ -235,6 +241,7 @@
       <workItem from="1748593484572" duration="4130000" />
       <workItem from="1748664284207" duration="10665000" />
       <workItem from="1748702093499" duration="43000" />
+      <workItem from="1748836199647" duration="2071000" />
     </task>
     <servers />
   </component>
@@ -266,14 +273,14 @@
     <SUITE FILE_PATH="coverage/100_days_of_python$Spirograph_using_circle.coverage" NAME="Spirograph_using_circle Coverage Results" MODIFIED="1748326342489" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DAY18" />
     <SUITE FILE_PATH="coverage/100_days_of_python$Hirst_painting.coverage" NAME="Hirst_painting Coverage Results" MODIFIED="1748327499118" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DAY18" />
     <SUITE FILE_PATH="coverage/100_days_of_python$Turtle_race.coverage" NAME="Turtle_race Coverage Results" MODIFIED="1748405244945" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DAY19" />
-    <SUITE FILE_PATH="coverage/100_days_of_python$Black_Jack.coverage" NAME="Black_Jack Coverage Results" MODIFIED="1748088943782" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DAY11" />
-    <SUITE FILE_PATH="coverage/100_days_of_python$Prime_function.coverage" NAME="Prime_function Coverage Results" MODIFIED="1747798892880" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DAY6" />
     <SUITE FILE_PATH="coverage/100_days_of_python$super__method.coverage" NAME="super()method Coverage Results" MODIFIED="1748499533245" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DAY22" />
+    <SUITE FILE_PATH="coverage/100_days_of_python$Prime_function.coverage" NAME="Prime_function Coverage Results" MODIFIED="1747798892880" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DAY6" />
+    <SUITE FILE_PATH="coverage/100_days_of_python$Black_Jack.coverage" NAME="Black_Jack Coverage Results" MODIFIED="1748088943782" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DAY11" />
     <SUITE FILE_PATH="coverage/100_days_of_python$Palindrome_Function.coverage" NAME="Palindrome_Function Coverage Results" MODIFIED="1747798632145" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DAY6" />
     <SUITE FILE_PATH="coverage/100_days_of_python$Guessing_states.coverage" NAME="Guessing_states Coverage Results" MODIFIED="1748677400758" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DAY25" />
     <SUITE FILE_PATH="coverage/100_days_of_python$BMI_Calculator_with_Interpretations.coverage" NAME="BMI_Calculator with Interpretations Coverage Results" MODIFIED="1747713356525" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DAY3" />
-    <SUITE FILE_PATH="coverage/100_days_of_python$Treasure_Game.coverage" NAME="Treasure_Game Coverage Results" MODIFIED="1747740284557" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DAY3" />
     <SUITE FILE_PATH="coverage/100_days_of_python$Project.coverage" NAME="Project Coverage Results" MODIFIED="1748679823487" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DAY25" />
+    <SUITE FILE_PATH="coverage/100_days_of_python$Treasure_Game.coverage" NAME="Treasure_Game Coverage Results" MODIFIED="1747740284557" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DAY3" />
     <SUITE FILE_PATH="coverage/100_days_of_python$Snake_game_using_turtle.coverage" NAME="Snake_game_using_turtle Coverage Results" MODIFIED="1748415021425" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DAY20" />
     <SUITE FILE_PATH="coverage/100_days_of_python$Debugging_Leap_Year_code.coverage" NAME="Debugging_Leap_Year_code Coverage Results" MODIFIED="1748142941022" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DAY13" />
     <SUITE FILE_PATH="coverage/100_days_of_python$string.coverage" NAME="string Coverage Results" MODIFIED="1747901952374" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DAY8" />
@@ -282,6 +289,7 @@
     <SUITE FILE_PATH="coverage/100_days_of_python$Turtle_introduction.coverage" NAME="Turtle_introduction Coverage Results" MODIFIED="1748316680611" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DAY18" />
     <SUITE FILE_PATH="coverage/100_days_of_python$Pizza_bill_Calculator.coverage" NAME="Pizza_bill_Calculator Coverage Results" MODIFIED="1747714146250" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DAY3" />
     <SUITE FILE_PATH="coverage/100_days_of_python$Admission_count.coverage" NAME="Admission_count Coverage Results" MODIFIED="1748595323382" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DAY23" />
+    <SUITE FILE_PATH="coverage/100_days_of_python$Coding_exercise_2.coverage" NAME="Coding_exercise_2 Coverage Results" MODIFIED="1748844586149" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DAY26" />
     <SUITE FILE_PATH="coverage/100_days_of_python$conformation.coverage" NAME="conformation Coverage Results" MODIFIED="1748144707352" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DAY14" />
     <SUITE FILE_PATH="coverage/100_days_of_python$Band_Name_Generator.coverage" NAME="Band_Name_Generator Coverage Results" MODIFIED="1747659078186" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DAY1" />
     <SUITE FILE_PATH="coverage/100_days_of_python$Etch_A_Sketch.coverage" NAME="Etch_A_Sketch Coverage Results" MODIFIED="1748402926054" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DAY19" />
@@ -291,7 +299,7 @@
     <SUITE FILE_PATH="coverage/100_days_of_python$Hangman_game.coverage" NAME="Hangman_game Coverage Results" MODIFIED="1747882785540" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DAY7" />
     <SUITE FILE_PATH="coverage/100_days_of_python$Balckjack.coverage" NAME="Balckjack Coverage Results" MODIFIED="1748085445645" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DAY11" />
     <SUITE FILE_PATH="coverage/100_days_of_python$Turtle.coverage" NAME="Turtle Coverage Results" MODIFIED="1748251035543" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DAY16" />
-    <SUITE FILE_PATH="coverage/100_days_of_python$main.coverage" NAME="main Coverage Results" MODIFIED="1748415052609" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/AppData/Local/Temp/f1ec6037-8024-4f20-a20e-778cdcf74d64_snake-game-part-1-final.zip.d64" />
+    <SUITE FILE_PATH="coverage/100_days_of_python$main.coverage" NAME="main Coverage Results" MODIFIED="1748847810256" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/AppData/Local/Temp/268843e0-5164-4b4b-bb49-8e2edb62d739_Solution-NATO-alphabet-end.zip.739/Solution+-+NATO-alphabet-end" />
     <SUITE FILE_PATH="coverage/100_days_of_python$Main.coverage" NAME="Main Coverage Results" MODIFIED="1748493136696" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DAY20" />
     <SUITE FILE_PATH="coverage/100_days_of_python$new.coverage" NAME="new Coverage Results" MODIFIED="1748672410930" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DAY25" />
     <SUITE FILE_PATH="coverage/100_days_of_python$Grade_Calculator_of_Subject.coverage" NAME="Grade_Calculator_of_Subject Coverage Results" MODIFIED="1748255560475" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DAY16" />
@@ -299,6 +307,7 @@
     <SUITE FILE_PATH="coverage/100_days_of_python$eee.coverage" NAME="eee Coverage Results" MODIFIED="1747902838667" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DAY8" />
     <SUITE FILE_PATH="coverage/100_days_of_python$Band_Generator.coverage" NAME="Band_Generator Coverage Results" MODIFIED="1747631093138" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Day1" />
     <SUITE FILE_PATH="coverage/100_days_of_python$Password_Generator.coverage" NAME="Password_Generator Coverage Results" MODIFIED="1747747465148" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DAY5" />
+    <SUITE FILE_PATH="coverage/100_days_of_python$NATO.coverage" NAME="NATO Coverage Results" MODIFIED="1748847526444" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DAY26" />
     <SUITE FILE_PATH="coverage/100_days_of_python$Debug_odd_even_code.coverage" NAME="Debug_odd_even_code Coverage Results" MODIFIED="1748142722112" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DAY13" />
     <SUITE FILE_PATH="coverage/100_days_of_python$Turtle_challenge_3.coverage" NAME="Turtle_challenge_3 Coverage Results" MODIFIED="1748320202977" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DAY18" />
     <SUITE FILE_PATH="coverage/100_days_of_python$Higher_order_functions_calculator.coverage" NAME="Higher_order_functions_calculator Coverage Results" MODIFIED="1748401231913" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DAY19" />
@@ -312,7 +321,7 @@
     <SUITE FILE_PATH="coverage/100_days_of_python$Debug_FizzBuzz_Game.coverage" NAME="Debug_FizzBuzz_Game Coverage Results" MODIFIED="1748143303839" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DAY13" />
     <SUITE FILE_PATH="coverage/100_days_of_python$Install.coverage" NAME="Install Coverage Results" MODIFIED="1748254446621" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DAY16" />
     <SUITE FILE_PATH="coverage/100_days_of_python$test.coverage" NAME="test Coverage Results" MODIFIED="1748311505992" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DAY16" />
-    <SUITE FILE_PATH="coverage/100_days_of_python$Coffee_Machine.coverage" NAME="Coffee_Machine Coverage Results" MODIFIED="1748594444279" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DAY15" />
+    <SUITE FILE_PATH="coverage/100_days_of_python$Coffee_Machine.coverage" NAME="Coffee_Machine Coverage Results" MODIFIED="1748844190127" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DAY15" />
     <SUITE FILE_PATH="coverage/100_days_of_python$Calculator.coverage" NAME="Calculator Coverage Results" MODIFIED="1747969700894" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DAY10" />
     <SUITE FILE_PATH="coverage/100_days_of_python$Even_odd.coverage" NAME="Even_odd Coverage Results" MODIFIED="1747712854032" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DAY3" />
     <SUITE FILE_PATH="coverage/100_days_of_python$Lists.coverage" NAME="Lists Coverage Results" MODIFIED="1747741969636" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DAY4" />
