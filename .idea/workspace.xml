@@ -159,6 +159,7 @@
     "Python.Random_walk.executor": "Run",
     "Python.Rock_Paper_Scissor_Game.executor": "Run",
     "Python.Secret_Auction.executor": "Run",
+    "Python.Snake_Game.executor": "Run",
     "Python.Snake_game_using_turtle.executor": "Run",
     "Python.Spirograph_using_circle.executor": "Run",
     "Python.Tip_Calculator.executor": "Run",
@@ -182,7 +183,7 @@
     "Python.test.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "Merging main",
+    "git-widget-placeholder": "main",
     "last_opened_file_path": "C:/Users/rishe/Desktop/100-days-of-python/Day1",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -242,6 +243,7 @@
       <workItem from="1748664284207" duration="10665000" />
       <workItem from="1748702093499" duration="43000" />
       <workItem from="1748836199647" duration="2071000" />
+      <workItem from="1748946141055" duration="8895000" />
     </task>
     <servers />
   </component>
@@ -273,9 +275,9 @@
     <SUITE FILE_PATH="coverage/100_days_of_python$Spirograph_using_circle.coverage" NAME="Spirograph_using_circle Coverage Results" MODIFIED="1748326342489" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DAY18" />
     <SUITE FILE_PATH="coverage/100_days_of_python$Hirst_painting.coverage" NAME="Hirst_painting Coverage Results" MODIFIED="1748327499118" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DAY18" />
     <SUITE FILE_PATH="coverage/100_days_of_python$Turtle_race.coverage" NAME="Turtle_race Coverage Results" MODIFIED="1748405244945" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DAY19" />
-    <SUITE FILE_PATH="coverage/100_days_of_python$super__method.coverage" NAME="super()method Coverage Results" MODIFIED="1748499533245" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DAY22" />
-    <SUITE FILE_PATH="coverage/100_days_of_python$Prime_function.coverage" NAME="Prime_function Coverage Results" MODIFIED="1747798892880" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DAY6" />
     <SUITE FILE_PATH="coverage/100_days_of_python$Black_Jack.coverage" NAME="Black_Jack Coverage Results" MODIFIED="1748088943782" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DAY11" />
+    <SUITE FILE_PATH="coverage/100_days_of_python$Prime_function.coverage" NAME="Prime_function Coverage Results" MODIFIED="1747798892880" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DAY6" />
+    <SUITE FILE_PATH="coverage/100_days_of_python$super__method.coverage" NAME="super()method Coverage Results" MODIFIED="1748499533245" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DAY22" />
     <SUITE FILE_PATH="coverage/100_days_of_python$Palindrome_Function.coverage" NAME="Palindrome_Function Coverage Results" MODIFIED="1747798632145" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DAY6" />
     <SUITE FILE_PATH="coverage/100_days_of_python$Guessing_states.coverage" NAME="Guessing_states Coverage Results" MODIFIED="1748677400758" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DAY25" />
     <SUITE FILE_PATH="coverage/100_days_of_python$BMI_Calculator_with_Interpretations.coverage" NAME="BMI_Calculator with Interpretations Coverage Results" MODIFIED="1747713356525" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DAY3" />
@@ -307,6 +309,7 @@
     <SUITE FILE_PATH="coverage/100_days_of_python$eee.coverage" NAME="eee Coverage Results" MODIFIED="1747902838667" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DAY8" />
     <SUITE FILE_PATH="coverage/100_days_of_python$Band_Generator.coverage" NAME="Band_Generator Coverage Results" MODIFIED="1747631093138" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Day1" />
     <SUITE FILE_PATH="coverage/100_days_of_python$Password_Generator.coverage" NAME="Password_Generator Coverage Results" MODIFIED="1747747465148" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DAY5" />
+    <SUITE FILE_PATH="coverage/100_days_of_python$Snake_Game.coverage" NAME="Snake_Game Coverage Results" MODIFIED="1749021588521" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Turtle_Topic" />
     <SUITE FILE_PATH="coverage/100_days_of_python$NATO.coverage" NAME="NATO Coverage Results" MODIFIED="1748847526444" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DAY26" />
     <SUITE FILE_PATH="coverage/100_days_of_python$Debug_odd_even_code.coverage" NAME="Debug_odd_even_code Coverage Results" MODIFIED="1748142722112" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DAY13" />
     <SUITE FILE_PATH="coverage/100_days_of_python$Turtle_challenge_3.coverage" NAME="Turtle_challenge_3 Coverage Results" MODIFIED="1748320202977" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DAY18" />
