@@ -5,10 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="27598671-d29c-452a-8b71-80022a340972" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/DAY27/Introduction_to_turtle.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DAY27/Keyword Arguments.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DAY27/Many_Positional_Arguments.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DAY27/Mile_to_km.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
@@ -58,6 +54,10 @@
       <change beforePath="$PROJECT_DIR$/DAY25/weather_data - Sheet1.csv" beforeDir="false" afterPath="$PROJECT_DIR$/DAY25/weather_data - Sheet1.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/DAY26/Coding_exercise_2.py" beforeDir="false" afterPath="$PROJECT_DIR$/DAY26/Coding_exercise_2.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/DAY26/List_Comprehensions_exercise_1.py" beforeDir="false" afterPath="$PROJECT_DIR$/DAY26/List_Comprehensions_exercise_1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DAY27/Introduction_to_turtle.py" beforeDir="false" afterPath="$PROJECT_DIR$/DAY27/Introduction_to_turtle.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DAY27/Keyword Arguments.py" beforeDir="false" afterPath="$PROJECT_DIR$/DAY27/Keyword Arguments.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DAY27/Many_Positional_Arguments.py" beforeDir="false" afterPath="$PROJECT_DIR$/DAY27/Many_Positional_Arguments.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DAY27/Mile_to_km.py" beforeDir="false" afterPath="$PROJECT_DIR$/DAY27/Mile_to_km.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/DAY3/BMI_Calculator with Interpretations.py" beforeDir="false" afterPath="$PROJECT_DIR$/DAY3/BMI_Calculator with Interpretations.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/DAY3/Even_odd.py" beforeDir="false" afterPath="$PROJECT_DIR$/DAY3/Even_odd.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/DAY3/Greatest_of_three.py" beforeDir="false" afterPath="$PROJECT_DIR$/DAY3/Greatest_of_three.py" afterDir="false" />
@@ -123,96 +123,96 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "Python.Admission_count.executor": "Run",
-    "Python.BMI_Calculator with Interpretations.executor": "Run",
-    "Python.Balckjack.executor": "Run",
-    "Python.Band_Generator.executor": "Run",
-    "Python.Band_Name_Generator.executor": "Run",
-    "Python.Bank_Account.executor": "Run",
-    "Python.Black_Jack.executor": "Run",
-    "Python.Book_name_and_author.executor": "Run",
-    "Python.Calculator.executor": "Run",
-    "Python.Celsius_to_Farheinheit.executor": "Run",
-    "Python.Coding_exercise_2.executor": "Run",
-    "Python.Coffee_Machine.executor": "Run",
-    "Python.Debug_FizzBuzz_Game.executor": "Run",
-    "Python.Debug_odd_even_code.executor": "Run",
-    "Python.Debugging_Leap_Year_code.executor": "Run",
-    "Python.Employee_increment.executor": "Run",
-    "Python.Encode_Decode.executor": "Run",
-    "Python.Etch_A_Sketch.executor": "Run",
-    "Python.Even_odd.executor": "Run",
-    "Python.Fibonacci_Series.executor": "Run",
-    "Python.Grade_Calculator.executor": "Run",
-    "Python.Grade_Calculator_of_Subject.executor": "Run",
-    "Python.Greatest_of_three.executor": "Run",
-    "Python.Guess the number.executor": "Run",
-    "Python.Guessing_states.executor": "Run",
-    "Python.Hangman_game.executor": "Run",
-    "Python.Higher_Lower_Game.executor": "Run",
-    "Python.Higher_order_functions_calculator.executor": "Run",
-    "Python.Highest score.executor": "Run",
-    "Python.Hirst_painting.executor": "Run",
-    "Python.Install.executor": "Run",
-    "Python.Introduction_to_turtle.executor": "Run",
-    "Python.Keyword Arguments.executor": "Run",
-    "Python.Leap_Year.executor": "Run",
-    "Python.Lists.executor": "Run",
-    "Python.Loops_Application.executor": "Run",
-    "Python.Love_Calculator.executor": "Run",
-    "Python.Main.executor": "Run",
-    "Python.Many_Positional_Arguments.executor": "Run",
-    "Python.Mile_to_km.executor": "Run",
-    "Python.Multi_Level.executor": "Run",
-    "Python.Multiple_Inheritance.executor": "Run",
-    "Python.NATO.executor": "Run",
-    "Python.Palindrome_Function.executor": "Run",
-    "Python.Password_Generator.executor": "Run",
-    "Python.Pizza_bill_Calculator.executor": "Run",
-    "Python.Prime_function.executor": "Run",
-    "Python.Project.executor": "Run",
-    "Python.Quiz.executor": "Run",
-    "Python.Random_walk.executor": "Run",
-    "Python.Rock_Paper_Scissor_Game.executor": "Run",
-    "Python.Secret_Auction.executor": "Run",
-    "Python.Snake_Game.executor": "Run",
-    "Python.Snake_game_using_turtle.executor": "Run",
-    "Python.Spirograph_using_circle.executor": "Run",
-    "Python.Tip_Calculator.executor": "Run",
-    "Python.Treasure_Game.executor": "Run",
-    "Python.Turtle.executor": "Run",
-    "Python.Turtle_Challenge_1.executor": "Run",
-    "Python.Turtle_challenge_2.executor": "Run",
-    "Python.Turtle_challenge_3.executor": "Run",
-    "Python.Turtle_introduction.executor": "Run",
-    "Python.Turtle_race.executor": "Run",
-    "Python.Type.executor": "Run",
-    "Python.conformation.executor": "Run",
-    "Python.eee.executor": "Run",
-    "Python.main.executor": "Run",
-    "Python.new.executor": "Run",
-    "Python.random_module.executor": "Run",
-    "Python.snake.executor": "Run",
-    "Python.spirograph.executor": "Run",
-    "Python.string.executor": "Run",
-    "Python.super()method.executor": "Run",
-    "Python.test.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "C:/Users/rishe/Desktop/100-days-of-python/Day1",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.keymap",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;Python.Admission_count.executor&quot;: &quot;Run&quot;,
+    &quot;Python.BMI_Calculator with Interpretations.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Balckjack.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Band_Generator.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Band_Name_Generator.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Bank_Account.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Black_Jack.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Book_name_and_author.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Calculator.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Celsius_to_Farheinheit.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Coding_exercise_2.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Coffee_Machine.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Debug_FizzBuzz_Game.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Debug_odd_even_code.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Debugging_Leap_Year_code.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Employee_increment.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Encode_Decode.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Etch_A_Sketch.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Even_odd.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Fibonacci_Series.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Grade_Calculator.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Grade_Calculator_of_Subject.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Greatest_of_three.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Guess the number.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Guessing_states.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Hangman_game.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Higher_Lower_Game.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Higher_order_functions_calculator.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Highest score.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Hirst_painting.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Install.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Introduction_to_turtle.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Keyword Arguments.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Leap_Year.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Lists.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Loops_Application.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Love_Calculator.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Many_Positional_Arguments.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Mile_to_km.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Multi_Level.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Multiple_Inheritance.executor&quot;: &quot;Run&quot;,
+    &quot;Python.NATO.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Palindrome_Function.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Password_Generator.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Pizza_bill_Calculator.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Prime_function.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Project.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Quiz.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Random_walk.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Rock_Paper_Scissor_Game.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Secret_Auction.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Snake_Game.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Snake_game_using_turtle.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Spirograph_using_circle.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Tip_Calculator.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Treasure_Game.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Turtle.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Turtle_Challenge_1.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Turtle_challenge_2.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Turtle_challenge_3.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Turtle_introduction.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Turtle_race.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Type.executor&quot;: &quot;Run&quot;,
+    &quot;Python.conformation.executor&quot;: &quot;Run&quot;,
+    &quot;Python.eee.executor&quot;: &quot;Run&quot;,
+    &quot;Python.main.executor&quot;: &quot;Run&quot;,
+    &quot;Python.new.executor&quot;: &quot;Run&quot;,
+    &quot;Python.random_module.executor&quot;: &quot;Run&quot;,
+    &quot;Python.snake.executor&quot;: &quot;Run&quot;,
+    &quot;Python.spirograph.executor&quot;: &quot;Run&quot;,
+    &quot;Python.string.executor&quot;: &quot;Run&quot;,
+    &quot;Python.super()method.executor&quot;: &quot;Run&quot;,
+    &quot;Python.test.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/rishe/Desktop/100-days-of-python/Day1&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.keymap&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\rishe\Desktop\100-days-of-python\Day1" />
@@ -264,6 +264,8 @@
       <workItem from="1748836199647" duration="2071000" />
       <workItem from="1748946141055" duration="8895000" />
       <workItem from="1749184482393" duration="6252000" />
+      <workItem from="1749219850833" duration="876000" />
+      <workItem from="1749271133732" duration="8955000" />
     </task>
     <servers />
   </component>
@@ -295,9 +297,9 @@
     <SUITE FILE_PATH="coverage/100_days_of_python$Spirograph_using_circle.coverage" NAME="Spirograph_using_circle Coverage Results" MODIFIED="1748326342489" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DAY18" />
     <SUITE FILE_PATH="coverage/100_days_of_python$Hirst_painting.coverage" NAME="Hirst_painting Coverage Results" MODIFIED="1748327499118" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DAY18" />
     <SUITE FILE_PATH="coverage/100_days_of_python$Turtle_race.coverage" NAME="Turtle_race Coverage Results" MODIFIED="1748405244945" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DAY19" />
-    <SUITE FILE_PATH="coverage/100_days_of_python$super__method.coverage" NAME="super()method Coverage Results" MODIFIED="1748499533245" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DAY22" />
-    <SUITE FILE_PATH="coverage/100_days_of_python$Prime_function.coverage" NAME="Prime_function Coverage Results" MODIFIED="1747798892880" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DAY6" />
     <SUITE FILE_PATH="coverage/100_days_of_python$Black_Jack.coverage" NAME="Black_Jack Coverage Results" MODIFIED="1748088943782" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DAY11" />
+    <SUITE FILE_PATH="coverage/100_days_of_python$Prime_function.coverage" NAME="Prime_function Coverage Results" MODIFIED="1747798892880" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DAY6" />
+    <SUITE FILE_PATH="coverage/100_days_of_python$super__method.coverage" NAME="super()method Coverage Results" MODIFIED="1748499533245" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DAY22" />
     <SUITE FILE_PATH="coverage/100_days_of_python$Palindrome_Function.coverage" NAME="Palindrome_Function Coverage Results" MODIFIED="1747798632145" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DAY6" />
     <SUITE FILE_PATH="coverage/100_days_of_python$Guessing_states.coverage" NAME="Guessing_states Coverage Results" MODIFIED="1748677400758" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DAY25" />
     <SUITE FILE_PATH="coverage/100_days_of_python$BMI_Calculator_with_Interpretations.coverage" NAME="BMI_Calculator with Interpretations Coverage Results" MODIFIED="1747713356525" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DAY3" />
@@ -324,7 +326,7 @@
     <SUITE FILE_PATH="coverage/100_days_of_python$Hangman_game.coverage" NAME="Hangman_game Coverage Results" MODIFIED="1747882785540" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DAY7" />
     <SUITE FILE_PATH="coverage/100_days_of_python$Balckjack.coverage" NAME="Balckjack Coverage Results" MODIFIED="1748085445645" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DAY11" />
     <SUITE FILE_PATH="coverage/100_days_of_python$Turtle.coverage" NAME="Turtle Coverage Results" MODIFIED="1748251035543" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DAY16" />
-    <SUITE FILE_PATH="coverage/100_days_of_python$main.coverage" NAME="main Coverage Results" MODIFIED="1748847810256" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/AppData/Local/Temp/268843e0-5164-4b4b-bb49-8e2edb62d739_Solution-NATO-alphabet-end.zip.739/Solution+-+NATO-alphabet-end" />
+    <SUITE FILE_PATH="coverage/100_days_of_python$main.coverage" NAME="main Coverage Results" MODIFIED="1749280868010" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DAY28" />
     <SUITE FILE_PATH="coverage/100_days_of_python$Main.coverage" NAME="Main Coverage Results" MODIFIED="1748493136696" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DAY20" />
     <SUITE FILE_PATH="coverage/100_days_of_python$new.coverage" NAME="new Coverage Results" MODIFIED="1748672410930" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DAY25" />
     <SUITE FILE_PATH="coverage/100_days_of_python$Grade_Calculator_of_Subject.coverage" NAME="Grade_Calculator_of_Subject Coverage Results" MODIFIED="1748255560475" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DAY16" />
