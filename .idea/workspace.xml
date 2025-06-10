@@ -178,6 +178,7 @@
     "Python.Palindrome_Function.executor": "Run",
     "Python.Password generator.executor": "Run",
     "Python.Password_Generator.executor": "Run",
+    "Python.Password_manager.executor": "Run",
     "Python.Pizza_bill_Calculator.executor": "Run",
     "Python.Pomodoro.executor": "Run",
     "Python.Prime_function.executor": "Run",
@@ -227,11 +228,11 @@
       <recent name="C:\Users\rishe\Desktop\100-days-of-python\Day1" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\rishe\Desktop\100-days-of-python\DAY30" />
+      <recent name="C:\Users\rishe\Desktop\100-days-of-python\DAY29" />
       <recent name="C:\Users\rishe\Desktop\100-days-of-python\DAY25" />
       <recent name="C:\Users\rishe\Desktop\100-days-of-python\DAY20" />
       <recent name="C:\Users\rishe\Desktop\100-days-of-python\DAY22" />
-      <recent name="C:\Users\rishe\Desktop\100-days-of-python\DAY17" />
-      <recent name="C:\Users\rishe\Desktop\100-days-of-python\DAY10" />
     </key>
   </component>
   <component name="SharedIndexes">
@@ -278,6 +279,7 @@
       <workItem from="1749298047473" duration="5479000" />
       <workItem from="1749371037563" duration="3478000" />
       <workItem from="1749441375087" duration="7917000" />
+      <workItem from="1749533586863" duration="4593000" />
     </task>
     <servers />
   </component>
@@ -324,7 +326,7 @@
     <SUITE FILE_PATH="coverage/100_days_of_python$Secret_Auction.coverage" NAME="Secret_Auction Coverage Results" MODIFIED="1747968378517" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DAY9" />
     <SUITE FILE_PATH="coverage/100_days_of_python$Higher_Lower_Game.coverage" NAME="Higher_Lower_Game Coverage Results" MODIFIED="1748145463398" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DAY14" />
     <SUITE FILE_PATH="coverage/100_days_of_python$Mile_to_km.coverage" NAME="Mile_to_km Coverage Results" MODIFIED="1749194754891" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DAY27" />
-    <SUITE FILE_PATH="coverage/100_days_of_python$Password_generator.coverage" NAME="Password generator Coverage Results" MODIFIED="1749449625514" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DAY29" />
+    <SUITE FILE_PATH="coverage/100_days_of_python$Password_generator.coverage" NAME="Password generator Coverage Results" MODIFIED="1749533682431" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DAY29" />
     <SUITE FILE_PATH="coverage/100_days_of_python$Turtle_introduction.coverage" NAME="Turtle_introduction Coverage Results" MODIFIED="1748316680611" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DAY18" />
     <SUITE FILE_PATH="coverage/100_days_of_python$Pomodoro.coverage" NAME="Pomodoro Coverage Results" MODIFIED="1749441809841" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DAY28" />
     <SUITE FILE_PATH="coverage/100_days_of_python$Pizza_bill_Calculator.coverage" NAME="Pizza_bill_Calculator Coverage Results" MODIFIED="1747714146250" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DAY3" />
@@ -345,6 +347,7 @@
     <SUITE FILE_PATH="coverage/100_days_of_python$new.coverage" NAME="new Coverage Results" MODIFIED="1748672410930" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DAY25" />
     <SUITE FILE_PATH="coverage/100_days_of_python$Grade_Calculator_of_Subject.coverage" NAME="Grade_Calculator_of_Subject Coverage Results" MODIFIED="1748255560475" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DAY16" />
     <SUITE FILE_PATH="coverage/100_days_of_python$Multi_Level.coverage" NAME="Multi_Level Coverage Results" MODIFIED="1748497430926" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DAY21" />
+    <SUITE FILE_PATH="coverage/100_days_of_python$Password_manager.coverage" NAME="Password_manager Coverage Results" MODIFIED="1749540868890" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DAY29" />
     <SUITE FILE_PATH="coverage/100_days_of_python$eee.coverage" NAME="eee Coverage Results" MODIFIED="1747902838667" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DAY8" />
     <SUITE FILE_PATH="coverage/100_days_of_python$Band_Generator.coverage" NAME="Band_Generator Coverage Results" MODIFIED="1747631093138" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Day1" />
     <SUITE FILE_PATH="coverage/100_days_of_python$Password_Generator.coverage" NAME="Password_Generator Coverage Results" MODIFIED="1747747465148" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DAY5" />
