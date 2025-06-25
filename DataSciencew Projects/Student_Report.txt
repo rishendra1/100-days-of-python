@@ -1,0 +1,4 @@
+----------Student_Report of ABC college----------
+Rishi - id - AP24110011858
+Marks - 89,89,78,69,56
+Average - 76.2
