@@ -1,8 +1,8 @@
 from tkinter import *
-
+#press function
 def press(key):
     Exp.insert(END, key)
-
+#solve function
 def solve():
     try:
         ans = Label(window, text = f"Answer is {eval(Exp.get())}")
