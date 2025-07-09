@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Python Notes</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #f4f4f4;
+      padding: 40px;
+    }
+    h1, h2 {
+      color: #2c3e50;
+    }
+    pre {
+      background: #2d2d2d;
+      color: #f1f1f1;
+      padding: 15px;
+      border-radius: 5px;
+      overflow-x: auto;
+    }
+    code {
+      color: #e67e22;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>📘 Python Notes</h1>
+
+  <h2>1. Variables & Data Types</h2>
+  <pre><code>name = "Alice"
+age = 25
+height = 5.8
+is_active = True
+</code></pre>
+
+  <h2>2. Control Flow</h2>
+  <pre><code>if age >= 18:
+    print("Adult")
+else:
+    print("Minor")
+</code></pre>
+
+  <h2>3. Loops</h2>
+  <pre><code>for i in range(5):
+    print(i)
+
+while condition:
+    # code block
+</code></pre>
+
+  <h2>4. Functions</h2>
+  <pre><code>def greet(name):
+    return f"Hello, {name}"
+
+print(greet("John"))
+</code></pre>
+
+  <h2>5. Lists, Tuples, Dictionaries</h2>
+  <pre><code># List
+fruits = ['apple', 'banana']
+
+# Tuple
+coords = (10, 20)
+
+# Dictionary
+person = {"name": "Alice", "age": 25}
+</code></pre>
+
+  <h2>6. File Handling</h2>
+  <pre><code>with open("data.txt", "r") as f:
+    content = f.read()
+
+with open("data.txt", "w") as f:
+    f.write("Hello!")
+</code></pre>
+
+  <h2>7. Exception Handling</h2>
+  <pre><code>try:
+    x = 10 / 0
+except ZeroDivisionError:
+    print("Error!")
+finally:
+    print("Done")
+</code></pre>
+
+  <h2>8. Object-Oriented Programming</h2>
+  <pre><code>class Person:
+    def __init__(self, name):
+        self.name = name
+
+    def greet(self):
+        print("Hello", self.name)
+
+p = Person("Bob")
+p.greet()
+</code></pre>
+
+  <h2>9. Modules</h2>
+  <pre><code>import math
+print(math.sqrt(16))
+
+from datetime import datetime
+print(datetime.now())
+</code></pre>
+
+  <h2>10. Libraries to Explore</h2>
+  <ul>
+    <li>NumPy, Pandas – Data Analysis</li>
+    <li>Matplotlib, Seaborn – Data Visualization</li>
+    <li>Flask, Django – Web Development</li>
+    <li>Requests – API Handling</li>
+    <li>OpenCV – Computer Vision</li>
+  </ul>
+
+</body>
+</html>
