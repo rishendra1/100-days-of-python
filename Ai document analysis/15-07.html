@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DocAnalyze AI</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100 min-h-screen flex flex-col">
+  <header class="bg-white shadow p-4 flex items-center justify-between">
+    <h1 class="text-xl font-semibold text-gray-800">📄 DocAnalyze AI</h1>
+    <label class="bg-blue-600 text-white px-4 py-2 rounded cursor-pointer hover:bg-blue-700">
+      Upload Document
+      <input type="file" id="fileInput" accept=".pdf,.doc,.docx,.ppt,.pptx,.txt" class="hidden">
+    </label>
+  </header>
+
+  <main class="flex-1 p-6 max-w-6xl mx-auto">
+    <section id="previewSection" class="mb-6 p-4 bg-white rounded shadow">
+      <h2 class="text-lg font-semibold text-gray-700 mb-2">Document Summary</h2>
+      <div id="summary" class="text-gray-600">No document uploaded yet.</div>
+    </section>
+
+    <section class="p-4 bg-white rounded shadow mb-6">
+      <h2 class="text-lg font-semibold text-gray-700 mb-2">Ask Something</h2>
+      <form id="promptForm" class="flex gap-2">
+        <input type="text" id="promptInput" placeholder="Ask your question..." class="flex-1 px-4 py-2 border rounded">
+        <button type="submit" class="bg-green-600 text-white px-4 py-2 rounded hover:bg-green-700">Ask</button>
+      </form>
+    </section>
+
+    <section id="chatHistory" class="p-4 bg-white rounded shadow">
+      <h2 class="text-lg font-semibold text-gray-700 mb-2">History</h2>
+      <div id="historyContainer" class="space-y-3 text-sm text-gray-700">
+        <p>No history yet.</p>
+      </div>
+    </section>
+  </main>
+
+  <script>
+    const fileInput = document.getElementById("fileInput");
+    const summary = document.getElementById("summary");
+    const historyContainer = document.getElementById("historyContainer");
+    const promptForm = document.getElementById("promptForm");
+    const promptInput = document.getElementById("promptInput");
+
+    let currentFileId = null;
+    const userId = "user123";
+
+    fileInput.addEventListener("change", async (e) => {
+      const file = e.target.files[0];
+      if (!file) return;
+
+      const formData = new FormData();
+      formData.append("file", file);
+      formData.append("user_id", userId);
+
+      const res = await fetch("http://localhost:8000/upload", {
+        method: "POST",
+        body: formData
+      });
+
+      const data = await res.json();
+      if (data.summary) {
+        summary.textContent = data.summary;
+        currentFileId = data.file_id;
+        updateHistory();
+      } else {
+        summary.textContent = data.error || "Failed to summarize the document.";
+      }
+    });
+
+    promptForm.addEventListener("submit", async (e) => {
+      e.preventDefault();
+      const prompt = promptInput.value.trim();
+      if (!prompt) return;
+
+      const formData = new FormData();
+      formData.append("user_id", userId);
+      formData.append("prompt", prompt);
+      if (currentFileId) formData.append("file_id", currentFileId);
+
+      const res = await fetch("http://localhost:8000/prompt", {
+        method: "POST",
+        body: formData
+      });
+
+      const data = await res.json();
+      updateHistory();
+    });
+
+    async function updateHistory() {
+      if (!currentFileId) return;
+      const res = await fetch(`http://localhost:8000/history/${currentFileId}`);
+      const data = await res.json();
+      historyContainer.innerHTML = "";
+      data.forEach(item => {
+        const div = document.createElement("div");
+        div.innerHTML = `<strong>Prompt:</strong> ${item.prompt}<br><strong>Response:</strong> ${item.response}`;
+        div.className = "bg-gray-50 p-3 rounded border";
+        historyContainer.appendChild(div);
+      });
+    }
+  </script>
+</body>
+</html>
