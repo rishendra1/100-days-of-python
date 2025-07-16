@@ -1,0 +1,127 @@
+pip install flask_cors
+# app.py
+from flask import Flask, request, jsonify
+from flask_cors import CORS
+import requests
+import os
+
+app = Flask(__name__)
+CORS(app) # Enable CORS for all routes, allowing frontend to access it
+
+# --- Configuration ---
+# It's highly recommended to use environment variables for sensitive information like API keys.
+# For local testing, you can set it directly, but NEVER hardcode in production.
+# Example: export GEMINI_API_KEY="YOUR_GEMINI_API_KEY"
+GEMINI_API_KEY = os.environ.get("GEMINI_API_KEY", "AIzaSyBYz4t7xlogBULCVOaanZKyC_WCYUuaXlQ") # Your provided API key
+GEMINI_API_URL = "https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent"
+
+# --- Helper Function for AI Interaction ---
+def get_gemini_response(prompt_text):
+    """
+    Sends a prompt to the Gemini API and returns the text response.
+    """
+    if not GEMINI_API_KEY:
+        print("Error: GEMINI_API_KEY is not set.")
+        return {"error": "Gemini API Key not configured on the server."}
+
+    headers = {
+        'Content-Type': 'application/json',
+    }
+    payload = {
+        "contents": [
+            {
+                "role": "user",
+                "parts": [{"text": prompt_text}]
+            }
+        ]
+    }
+
+    try:
+        # Append API key to the URL
+        api_url_with_key = f"{GEMINI_API_URL}?key={GEMINI_API_KEY}"
+        response = requests.post(api_url_with_key, headers=headers, json=payload)
+        response.raise_for_status() # Raise an exception for HTTP errors (4xx or 5xx)
+        result = response.json()
+
+        if result.get('candidates') and len(result['candidates']) > 0 and \
+           result['candidates'][0].get('content') and \
+           result['candidates'][0]['content'].get('parts') and \
+           len(result['candidates'][0]['content']['parts']) > 0:
+            return {"response": result['candidates'][0]['content']['parts'][0]['text']}
+        elif result.get('error'):
+            return {"error": f"Gemini API Error: {result['error'].get('message', 'Unknown error')}"}
+        else:
+            return {"error": "Unexpected response structure from Gemini API."}
+
+    except requests.exceptions.RequestException as e:
+        print(f"Request error to Gemini API: {e}")
+        return {"error": f"Failed to connect to Gemini API: {e}"}
+    except Exception as e:
+        print(f"An unexpected error occurred: {e}")
+        return {"error": f"An internal error occurred: {e}"}
+
+# --- API Endpoints ---
+
+@app.route('/')
+def home():
+    """Basic home route for testing if the server is running."""
+    return jsonify({"message": "AI Document Chat Backend is running!"})
+
+@app.route('/fetch_document', methods=['POST'])
+def fetch_document():
+    """
+    Endpoint to fetch content from a given URL.
+    This helps bypass CORS issues on the frontend.
+    """
+    data = request.get_json()
+    url = data.get('url')
+
+    if not url:
+        return jsonify({"error": "URL is required"}), 400
+
+    try:
+        # Fetch the content from the URL
+        # Adding a timeout to prevent hanging requests
+        response = requests.get(url, timeout=10)
+        response.raise_for_status() # Raise an exception for HTTP errors (4xx or 5xx)
+        return jsonify({"content": response.text}), 200
+    except requests.exceptions.Timeout:
+        return jsonify({"error": "Request to URL timed out."}), 504
+    except requests.exceptions.RequestException as e:
+        print(f"Error fetching document from {url}: {e}")
+        return jsonify({"error": f"Failed to fetch document from URL: {e}"}), 500
+    except Exception as e:
+        print(f"An unexpected error occurred during document fetch: {e}")
+        return jsonify({"error": f"An internal error occurred: {e}"}), 500
+
+@app.route('/ask_document_ai', methods=['POST'])
+def ask_document_ai():
+    """
+    Endpoint to ask questions about a provided document using the Gemini AI.
+    """
+    data = request.get_json()
+    document_content = data.get('documentContent')
+    question = data.get('question')
+
+    if not document_content or not question:
+        return jsonify({"error": "Both documentContent and question are required"}), 400
+
+    # Construct the prompt for the LLM
+    prompt = (
+        f"Based on the following document, answer the question. "
+        f"If the answer is not in the document, state that you cannot find the information.\n\n"
+        f"Document:\n\"\"\"{document_content}\"\"\"\n\n"
+        f"Question: \"{question}\""
+    )
+
+    ai_response = get_gemini_response(prompt)
+
+    if "error" in ai_response:
+        return jsonify(ai_response), 500
+    else:
+        return jsonify(ai_response), 200
+
+if __name__ == '__main__':
+    # Run the Flask app
+    # In a production environment, you would use a production-ready WSGI server like Gunicorn.
+    app.run(debug=True, host='0.0.0.0', port=5000)
