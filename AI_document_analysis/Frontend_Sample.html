@@ -1,0 +1,482 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Document Chat Bot</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Google Fonts - Inter for a clean look -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+    <style>
+        /* Custom styles for better aesthetics and font */
+        body {
+            font-family: 'Inter', sans-serif;
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale;
+        }
+        /* Custom scrollbar for chat area */
+        .chat-area::-webkit-scrollbar {
+            width: 8px;
+        }
+        .chat-area::-webkit-scrollbar-track {
+            background: #f1f1f1;
+            border-radius: 10px;
+        }
+        .chat-area::-webkit-scrollbar-thumb {
+            background: #888;
+            border-radius: 10px;
+        }
+        .chat-area::-webkit-scrollbar-thumb:hover {
+            background: #555;
+        }
+    </style>
+</head>
+<body class="bg-gray-100 flex flex-col items-center p-4 min-h-screen">
+
+    <!-- Custom Modal Structure -->
+    <div id="custom-modal" class="hidden fixed inset-0 bg-gray-600 bg-opacity-50 flex items-center justify-center z-50">
+        <div class="bg-white p-6 rounded-lg shadow-xl max-w-sm w-full text-center">
+            <p id="modal-message" class="text-lg mb-4"></p>
+            <button id="modal-ok-button" class="px-6 py-2 bg-blue-600 text-white rounded-md hover:bg-blue-700 transition duration-300">
+                OK
+            </button>
+        </div>
+    </div>
+
+    <h1 class="text-4xl font-bold text-gray-800 mb-8 mt-4">Document AI Chat</h1>
+
+    <!-- Document Input/Browse Section -->
+    <div class="bg-white p-6 rounded-xl shadow-lg w-full max-w-3xl mb-8">
+        <h2 class="text-2xl font-semibold text-gray-700 mb-4">1. Provide Your Document</h2>
+
+        <!-- URL Input for Browsing -->
+        <div class="mb-4">
+            <label for="documentUrl" class="block text-gray-700 text-sm font-bold mb-2">
+                Fetch from URL:
+            </label>
+            <div class="flex gap-2">
+                <input
+                    type="url"
+                    id="documentUrl"
+                    class="flex-1 p-3 border border-gray-300 rounded-lg focus:ring-blue-500 focus:border-blue-500"
+                    placeholder="e.g., https://example.com/document.txt"
+                />
+                <button
+                    id="fetchDocumentButton"
+                    class="px-6 py-3 bg-green-600 text-white rounded-lg font-semibold hover:bg-green-700 transition duration-300 shadow-md disabled:opacity-50 disabled:cursor-not-allowed"
+                >
+                    Fetch
+                </button>
+            </div>
+            <p class="text-sm text-gray-500 mt-1">
+                (Ensure your Flask backend is running and accessible at <span id="backend-url-display"></span>)
+            </p>
+        </div>
+
+        <div class="text-center text-gray-500 my-4">
+            — OR —
+        </div>
+
+        <!-- File Upload Input -->
+        <div class="mb-4">
+            <label for="documentUpload" class="block text-gray-700 text-sm font-bold mb-2">
+                Upload Document:
+            </label>
+            <div class="flex gap-2">
+                <input
+                    type="file"
+                    id="documentUpload"
+                    class="flex-1 p-3 border border-gray-300 rounded-lg focus:ring-blue-500 focus:border-blue-500 bg-white cursor-pointer"
+                    accept=".txt,.pdf" <!-- Suggesting common text/document types -->
+                />
+                <button
+                    id="uploadDocumentButton"
+                    class="px-6 py-3 bg-indigo-600 text-white rounded-lg font-semibold hover:bg-indigo-700 transition duration-300 shadow-md disabled:opacity-50 disabled:cursor-not-allowed"
+                >
+                    Upload
+                </button>
+            </div>
+            <p class="text-sm text-gray-500 mt-2">
+                Upload a text file (.txt) or a PDF (.pdf). Text will be extracted by the backend.
+            </p>
+            <p id="uploaded-file-name" class="text-sm text-gray-600 mt-1 italic hidden">No file selected.</p>
+        </div>
+
+        <div class="flex justify-end mt-4">
+            <button
+                id="clearDocumentButton"
+                class="px-4 py-2 bg-red-500 text-white rounded-lg font-semibold hover:bg-red-600 transition duration-300 shadow-md"
+            >
+                Clear Document
+            </button>
+        </div>
+    </div>
+
+    <!-- Chat Interface Section -->
+    <div class="bg-white p-6 rounded-xl shadow-lg w-full max-w-3xl flex flex-col h-[600px]">
+        <h2 class="text-2xl font-semibold text-gray-700 mb-4">2. Ask Questions</h2>
+        <!-- Chat Display Area -->
+        <div id="chat-area" class="flex-1 overflow-y-auto border border-gray-200 rounded-lg p-4 mb-4 bg-gray-50 chat-area">
+            <p id="chat-initial-message" class="text-gray-500 text-center mt-10">
+                Start by providing a document and asking your first question!
+            </p>
+            <div id="loading-indicator" class="hidden flex justify-center items-center py-4">
+                <div class="animate-spin rounded-full h-8 w-8 border-b-2 border-blue-600"></div>
+                <span class="ml-3 text-gray-600">Thinking...</span>
+            </div>
+        </div>
+
+        <!-- Chat Input Area -->
+        <div class="flex gap-3">
+            <input
+                type="text"
+                id="chatInput"
+                class="flex-1 p-3 border border-gray-300 rounded-lg focus:ring-blue-500 focus:border-blue-500"
+                placeholder="Type your question here..."
+            />
+            <button
+                id="sendMessageButton"
+                class="px-6 py-3 bg-blue-600 text-white rounded-lg font-semibold hover:bg-blue-700 transition duration-300 shadow-md disabled:opacity-50 disabled:cursor-not-allowed"
+            >
+                Send
+            </button>
+        </div>
+    </div>
+
+    <script>
+        // Configuration for your backend API
+        // IMPORTANT: Replace 'YOUR_PUBLIC_BACKEND_URL_HERE' with the actual HTTPS URL
+        // where you deploy your Flask backend (e.g., https://my-backend.cloudrun.app).
+        // A local 'http://localhost:5000' will NOT work from a public HTTPS website.
+        const BACKEND_API_BASE_URL = 'YOUR_PUBLIC_BACKEND_URL_HERE'; 
+
+        // Generate a unique session ID for this user/browser session
+        // This ID will be sent with every request to the backend.
+        // For production, consider more robust session management (e.g., cookies, JWTs).
+        const SESSION_ID = localStorage.getItem('ai_chat_session_id') || crypto.randomUUID();
+        localStorage.setItem('ai_chat_session_id', SESSION_ID);
+        console.log("Current Session ID:", SESSION_ID);
+
+
+        // --- DOM Element References ---
+        const documentUrlInput = document.getElementById('documentUrl');
+        const fetchDocumentButton = document.getElementById('fetchDocumentButton');
+        const documentUploadInput = document.getElementById('documentUpload');
+        const uploadDocumentButton = document.getElementById('uploadDocumentButton');
+        const uploadedFileNameDisplay = document.getElementById('uploaded-file-name');
+        const clearDocumentButton = document.getElementById('clearDocumentButton');
+        const chatArea = document.getElementById('chat-area');
+        const chatInitialMessage = document.getElementById('chat-initial-message');
+        const chatInput = document.getElementById('chatInput');
+        const sendMessageButton = document.getElementById('sendMessageButton');
+        const loadingIndicator = document.getElementById('loading-indicator');
+        const backendUrlDisplay = document.getElementById('backend-url-display');
+
+        // Modal elements
+        const customModal = document.getElementById('custom-modal');
+        const modalMessage = document.getElementById('modal-message');
+        const modalOkButton = document.getElementById('modal-ok-button');
+
+        // --- State Variables (simulated with global variables for simplicity in plain JS) ---
+        let isFetchingDocument = false; // Used for both fetch and upload operations
+        let isLoadingAI = false;
+        let selectedFileForUpload = null; // Stores the file object for upload
+
+        // --- Initial Setup ---
+        // Corrected syntax: display the BACKEND_API_BASE_URL string
+        backendUrlDisplay.textContent = https://rishendra.com/testing; 
+        updateFileNameDisplay(); // Initialize file name display
+
+        // --- Helper Functions ---
+
+        /**
+         * Shows a custom modal with a given message.
+         * @param {string} message - The message to display in the modal.
+         */
+        function showCustomModal(message) {
+            modalMessage.textContent = message;
+            customModal.classList.remove('hidden');
+        }
+
+        /**
+         * Hides the custom modal.
+         */
+        function closeCustomModal() {
+            customModal.classList.add('hidden');
+            modalMessage.textContent = '';
+        }
+
+        /**
+         * Updates the UI based on loading states.
+         */
+        function updateUIState() {
+            const disableInputs = isFetchingDocument || isLoadingAI;
+
+            documentUrlInput.disabled = disableInputs;
+            fetchDocumentButton.disabled = disableInputs;
+            documentUploadInput.disabled = disableInputs;
+            uploadDocumentButton.disabled = disableInputs || !selectedFileForUpload; // Disable upload button if no file selected
+            chatInput.disabled = disableInputs;
+            sendMessageButton.disabled = disableInputs;
+
+            // Update fetch button text/spinner
+            if (isFetchingDocument) {
+                fetchDocumentButton.innerHTML = '<div class="animate-spin rounded-full h-5 w-5 border-b-2 border-white inline-block"></div>';
+                uploadDocumentButton.innerHTML = '<div class="animate-spin rounded-full h-5 w-5 border-b-2 border-white inline-block"></div>';
+            } else {
+                fetchDocumentButton.textContent = 'Fetch';
+                uploadDocumentButton.textContent = 'Upload';
+            }
+
+            // Show/hide AI loading indicator
+            if (isLoadingAI) {
+                loadingIndicator.classList.remove('hidden');
+            } else {
+                loadingIndicator.classList.add('hidden');
+            }
+        }
+
+        /**
+         * Updates the display for the uploaded file name.
+         */
+        function updateFileNameDisplay() {
+            if (selectedFileForUpload) {
+                uploadedFileNameDisplay.textContent = `Selected: ${selectedFileForUpload.name}`;
+                uploadedFileNameDisplay.classList.remove('hidden');
+            } else {
+                uploadedFileNameDisplay.textContent = 'No file selected.';
+                uploadedFileNameDisplay.classList.add('hidden');
+            }
+        }
+
+        /**
+         * Adds a message to the chat display.
+         * @param {string} role - 'user' or 'bot'.
+         * @param {string} text - The message text.
+         */
+        function addMessageToChat(role, text) {
+            if (chatInitialMessage) {
+                chatInitialMessage.classList.add('hidden'); // Hide initial message once chat starts
+            }
+
+            const messageDiv = document.createElement('div');
+            messageDiv.classList.add('mb-3', 'p-3', 'rounded-lg', 'max-w-[80%]');
+
+            const roleClass = role === 'user'
+                ? 'bg-blue-500 text-white ml-auto rounded-br-none'
+                : 'bg-gray-200 text-gray-800 mr-auto rounded-bl-none';
+            messageDiv.classList.add(...roleClass.split(' '));
+
+            messageDiv.innerHTML = `<p class="font-semibold capitalize mb-1">${role}:</p><p>${text}</p>`;
+            chatArea.appendChild(messageDiv);
+
+            // Scroll to the bottom
+            chatArea.scrollTop = chatArea.scrollHeight;
+        }
+
+        // --- Event Handlers ---
+
+        /**
+         * Handles fetching document content from a URL via the backend.
+         */
+        async function handleFetchDocument() {
+            const url = documentUrlInput.value.trim();
+            if (!url) {
+                showCustomModal('Please enter a URL to fetch the document.');
+                return;
+            }
+
+            isFetchingDocument = true;
+            updateUIState();
+            documentUploadInput.value = ''; // Clear file input
+            selectedFileForUpload = null; // Clear selected file
+            updateFileNameDisplay();
+            chatArea.innerHTML = ''; // Clear chat history
+            chatInitialMessage.classList.remove('hidden'); // Show initial message again
+
+            try {
+                const response = await fetch(`${BACKEND_API_BASE_URL}/fetch_document`, {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json',
+                    },
+                    body: JSON.stringify({ url: url, session_id: SESSION_ID }), // Include session_id
+                });
+
+                if (!response.ok) {
+                    const errorData = await response.json();
+                    throw new Error(errorData.error || `HTTP error! Status: ${response.status}`);
+                }
+
+                const data = await response.json();
+                showCustomModal(data.message); // Backend sends success message
+            } catch (error) {
+                console.error('Error fetching document via backend:', error);
+                showCustomModal(`Failed to fetch document: ${error.message}. Please check the URL and ensure your backend is running on an accessible HTTPS server.`);
+            } finally {
+                isFetchingDocument = false;
+                updateUIState();
+            }
+        }
+
+        /**
+         * Handles file selection by the user.
+         * @param {Event} event - The change event from the file input.
+         */
+        function handleFileChange(event) {
+            const file = event.target.files[0];
+            if (file) {
+                selectedFileForUpload = file;
+                documentUrlInput.value = ''; // Clear URL input if file is selected
+                chatArea.innerHTML = ''; // Clear chat history
+                chatInitialMessage.classList.remove('hidden'); // Show initial message again
+            } else {
+                selectedFileForUpload = null;
+            }
+            updateFileNameDisplay();
+            updateUIState(); // Update button disabled state
+        }
+
+        /**
+         * Handles the file upload to the backend.
+         */
+        async function handleUploadDocument() {
+            if (!selectedFileForUpload) {
+                showCustomModal('Please select a file to upload.');
+                return;
+            }
+
+            isFetchingDocument = true; // Use same loading state for upload
+            updateUIState();
+            chatArea.innerHTML = ''; // Clear chat history
+            chatInitialMessage.classList.remove('hidden'); // Show initial message again
+
+            const formData = new FormData();
+            formData.append('file', selectedFileForUpload);
+            formData.append('session_id', SESSION_ID); // Include session_id in FormData
+
+            try {
+                const response = await fetch(`${BACKEND_API_BASE_URL}/upload_document`, {
+                    method: 'POST',
+                    body: formData, // No 'Content-Type' header needed for FormData; browser sets it
+                });
+
+                if (!response.ok) {
+                    const errorData = await response.json();
+                    throw new Error(errorData.error || `HTTP error! Status: ${response.status}`);
+                }
+
+                const data = await response.json();
+                showCustomModal(data.message); // Backend sends success message
+                documentUploadInput.value = ''; // Clear file input after successful upload
+                selectedFileForUpload = null; // Clear selected file
+                updateFileNameDisplay(); // Update display
+            } catch (error) {
+                console.error('Error uploading document via backend:', error);
+                showCustomModal(`Failed to upload document: ${error.message}. Please check file type and ensure your backend is running on an accessible HTTPS server.`);
+            } finally {
+                isFetchingDocument = false;
+                updateUIState();
+            }
+        }
+
+        /**
+         * Handles sending a message to the AI via the backend.
+         */
+        async function handleSendMessage() {
+            // We assume the backend holds the document content for the session.
+
+            const question = chatInput.value.trim();
+            if (!question) {
+                return; // Don't send empty messages
+            }
+
+            addMessageToChat('user', question);
+            chatInput.value = ''; // Clear input field
+            isLoadingAI = true;
+            updateUIState();
+
+            try {
+                const response = await fetch(`${BACKEND_API_BASE_URL}/ask_document_ai`, {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json',
+                    },
+                    body: JSON.stringify({
+                        question: question,
+                        session_id: SESSION_ID // Include session_id
+                    }),
+                });
+
+                if (!response.ok) {
+                    const errorData = await response.json();
+                    throw new Error(errorData.error || `HTTP error! Status: ${response.status}`);
+                }
+
+                const data = await response.json();
+                const botResponse = data.response;
+                addMessageToChat('bot', botResponse);
+
+            } catch (error) {
+                console.error('Error fetching AI response via backend:', error);
+                addMessageToChat('bot', `An error occurred: ${error.message}. Please ensure your backend is running and a document has been provided.`);
+            } finally {
+                isLoadingAI = false;
+                updateUIState();
+            }
+        }
+
+        /**
+         * Handles clearing the document content and chat history.
+         */
+        async function handleClearDocument() {
+            documentUrlInput.value = '';
+            documentUploadInput.value = ''; // Clear file input
+            selectedFileForUpload = null; // Clear selected file
+            updateFileNameDisplay();
+            chatArea.innerHTML = ''; // Clear chat messages
+            chatInitialMessage.classList.remove('hidden'); // Show initial message
+
+            // Call backend to clear document content for this session
+            try {
+                const response = await fetch(`${BACKEND_API_BASE_URL}/clear_document_content`, {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json',
+                    },
+                    body: JSON.stringify({ session_id: SESSION_ID }),
+                });
+
+                if (!response.ok) {
+                    const errorData = await response.json();
+                    throw new Error(errorData.error || `HTTP error! Status: ${response.status}`);
+                }
+                const data = await response.json();
+                showCustomModal(data.message);
+            } catch (error) {
+                console.error('Error clearing document content on backend:', error);
+                showCustomModal(`Failed to clear document on backend: ${error.message}.`);
+            }
+        }
+
+        // --- Event Listeners ---
+        fetchDocumentButton.addEventListener('click', handleFetchDocument);
+        documentUploadInput.addEventListener('change', handleFileChange);
+        uploadDocumentButton.addEventListener('click', handleUploadDocument);
+        clearDocumentButton.addEventListener('click', handleClearDocument);
+        sendMessageButton.addEventListener('click', handleSendMessage);
+        modalOkButton.addEventListener('click', closeCustomModal);
+
+        chatInput.addEventListener('keypress', (event) => {
+            if (event.key === 'Enter' && !isLoadingAI && !isFetchingDocument) {
+                handleSendMessage();
+            }
+        });
+
+        // Initial UI state update
+        updateUIState();
+
+    </script>
+</body>
+</html>
